@@ -1,0 +1,1336 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  </head>
+  <body>
+      
+      <style>
+          .bg_blue {background: #005B84;}
+          .txt_blue {color: #005B84;}
+
+      </style>
+      
+<style>
+  * {
+      font-family: "Roboto", sans-serif;
+  }
+
+  .car-card{
+    max-width: 760px;
+    border:1px solid #d9d9d9;
+    border-radius:14px;
+    background:#f2f2f2;
+    padding:22px 26px;
+  }
+
+.car-img {
+    max-height: 107px;
+    width: 100%;
+    object-fit: contain;
+}
+section.car-rental-categories .card .row {
+    padding: 17px 12px 0px;
+}
+  section.car-rental-categories .row {
+    gap: 24px 0px;
+}
+section.car-rental-categories .row .card {
+    border-radius: 10px;
+}
+section.car-rental-categories .card .description {
+    font-size: 15px;
+    color: #333333;
+    line-height: 21px;
+    border-top: 1px solid #EAE9E9;
+    background: #F8F8F8;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    padding: 10px;
+}
+p.note {
+font-weight: 400;
+font-size: 12px;
+color: #595959;
+text-align: center;
+}
+.badge-economy {
+    background: #0d5e7a;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 6px 11px;
+    border-radius: 5px;
+}
+.car-title {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 6px;
+}
+
+.car-title span {
+    font-weight: 400;
+    color: #404040;
+    font-size: 13px;
+}
+
+.price {
+    font-size: 15px;
+    color: #333333;
+    font-weight: 400;
+}
+
+.price strong {
+    color: #005B84;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.description {
+    margin-top: 18px;
+    font-size: 15px;
+    color: #333333;
+    line-height: 21px;
+}
+p.sub-title {
+    font-size: 16px;
+    color: #5B5B5B;
+    line-height: 22px;
+}
+p.disclaimer {
+    font-size: 12px;
+    line-height: 100%;
+    text-align: center;
+}
+</style>      
+<section class="car-rental-categories">
+<div class="container py-5">
+    <h2 class="fw-bold mb-3">Popular Car Rental Categories at Dusseldorf Airport</h2>
+    <p class="sub-title fw-normal">Organize your trip to Germany by booking your ideal car for DUS Airport using our platform. Each traveler has a different requirement for a rental vehicle and in partnership with top-notch suppliers, we provide  customers with a high-quality vehicle fleet with both automatic and  manual transmissions.</p>
+    <div class="row pb-3">
+    <div class="col-lg-4 col-md-6">
+    <div class="card overflow-hidden">
+    <div class="row align-items-center">
+      
+      <!-- Car Image -->
+      <div class="col-5 text-center text-md-start mb-3 mb-md-0">
+        <img src="https://cdn.vipcars.com/common/images/cars/compact-sm.png" class="img-fluid car-img" alt="Ford Fiesta">
+      </div>
+
+      <!-- Car Details -->
+      <div class="col-7">
+        <span class="badge badge-economy mb-2">Economy</span>
+        <div class="car-title mb-0">
+          Ford Fiesta <span>or Similar</span>
+        </div>
+        <div class="price">
+          From <strong>€20</strong> /day
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Description -->
+    <div class="description mt-2">
+      Düsseldorf’s urban center and Altstadt have narrow streets and limited parking, 
+      which makes maneuvering through these in a small car like a Skoda, Volkswagen, 
+      or similar an ideal option.
+    </div>
+  </div>
+  </div>
+    <div class="col-lg-4 col-md-6">
+    <div class="card overflow-hidden">
+    <div class="row align-items-center">
+      
+      <!-- Car Image -->
+      <div class="col-5 text-center text-md-start mb-3 mb-md-0">
+        <img src="https://cdn.vipcars.com/common/images/cars/compact-sm.png" class="img-fluid car-img" alt="Ford Fiesta">
+      </div>
+
+      <!-- Car Details -->
+      <div class="col-7">
+        <span class="badge badge-economy mb-2">Economy</span>
+        <div class="car-title mb-0">
+          Ford Fiesta <span>or Similar</span>
+        </div>
+        <div class="price">
+          From <strong>€20</strong> /day
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Description -->
+    <div class="description mt-2">
+      Düsseldorf’s urban center and Altstadt have narrow streets and limited parking, 
+      which makes maneuvering through these in a small car like a Skoda, Volkswagen, 
+      or similar an ideal option.
+    </div>
+  </div>
+  </div>
+    <div class="col-lg-4 col-md-6">
+        <div class="card overflow-hidden">
+    <div class="row align-items-center">
+      
+      <!-- Car Image -->
+      <div class="col-5 text-center text-md-start mb-3 mb-md-0">
+        <img src="https://cdn.vipcars.com/common/images/cars/compact-sm.png" class="img-fluid car-img" alt="Ford Fiesta">
+      </div>
+
+      <!-- Car Details -->
+      <div class="col-7">
+        <span class="badge badge-economy mb-2">Economy</span>
+        <div class="car-title mb-0">
+          Ford Fiesta <span>or Similar</span>
+        </div>
+        <div class="price">
+          From <strong>€20</strong> /day
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Description -->
+    <div class="description mt-2">
+      Düsseldorf’s urban center and Altstadt have narrow streets and limited parking, 
+      which makes maneuvering through these in a small car like a Skoda, Volkswagen, 
+      or similar an ideal option.
+    </div>
+  </div>
+</div>
+    <div class="col-lg-4 col-md-6">
+    <div class="card overflow-hidden">
+    <div class="row align-items-center">
+      
+      <!-- Car Image -->
+      <div class="col-5 text-center text-md-start mb-3 mb-md-0">
+        <img src="https://cdn.vipcars.com/common/images/cars/compact-sm.png" class="img-fluid car-img" alt="Ford Fiesta">
+      </div>
+
+      <!-- Car Details -->
+      <div class="col-7">
+        <span class="badge badge-economy mb-2">Economy</span>
+        <div class="car-title mb-0">
+          Ford Fiesta <span>or Similar</span>
+        </div>
+        <div class="price">
+          From <strong>€20</strong> /day
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Description -->
+    <div class="description mt-2">
+      Düsseldorf’s urban center and Altstadt have narrow streets and limited parking, 
+      which makes maneuvering through these in a small car like a Skoda, Volkswagen, 
+      or similar an ideal option.
+    </div>
+  </div>
+  </div>
+    <div class="col-lg-4 col-md-6">
+    <div class="card overflow-hidden">
+    <div class="row align-items-center">
+      
+      <!-- Car Image -->
+      <div class="col-5 text-center text-md-start mb-3 mb-md-0">
+        <img src="https://cdn.vipcars.com/common/images/cars/compact-sm.png" class="img-fluid car-img" alt="Ford Fiesta">
+      </div>
+
+      <!-- Car Details -->
+      <div class="col-7">
+        <span class="badge badge-economy mb-2">Economy</span>
+        <div class="car-title mb-0">
+          Ford Fiesta <span>or Similar</span>
+        </div>
+        <div class="price">
+          From <strong>€20</strong> /day
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Description -->
+    <div class="description mt-2">
+      Düsseldorf’s urban center and Altstadt have narrow streets and limited parking, 
+      which makes maneuvering through these in a small car like a Skoda, Volkswagen, 
+      or similar an ideal option.
+    </div>
+  </div>
+  </div>
+    <div class="col-lg-4 col-md-6">
+    <div class="card overflow-hidden">
+    <div class="row align-items-center">
+      
+      <!-- Car Image -->
+      <div class="col-5 text-center text-md-start mb-3 mb-md-0">
+        <img src="https://cdn.vipcars.com/common/images/cars/compact-sm.png" class="img-fluid car-img" alt="Ford Fiesta">
+      </div>
+
+      <!-- Car Details -->
+      <div class="col-7">
+        <span class="badge badge-economy mb-2">Economy</span>
+        <div class="car-title mb-0">
+          Ford Fiesta <span>or Similar</span>
+        </div>
+        <div class="price">
+          From <strong>€20</strong> /day
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Description -->
+    <div class="description mt-2">
+      Düsseldorf’s urban center and Altstadt have narrow streets and limited parking, 
+      which makes maneuvering through these in a small car like a Skoda, Volkswagen, 
+      or similar an ideal option.
+    </div>
+  </div>
+</div>
+</div>
+<p class="disclaimer mt-2">*All prices above are on per day basis and subject to change without prior notice. Since costs vary by vehicle class, dates, supplier, and collection point, we recommend checking real-time rates to get the most accurate price.</p>
+        <!-- ================= Airport Info Section ================= -->
+        <div class="row align-items-start g-5 mt-4">
+
+            <div class="col-lg-8">
+                <h2 class="fw-bold mb-3">Rent a Car at Dusseldorf International Airport</h2>
+                <p>
+                   If arriving in the capital of North Rhine-Westphalia, renting a car from Dusseldorf Airport can make your onward journey seamless. Having your  own set of wheels from the get-go can be the most flexible option for reaching your destination without the limitations of public transportation. Whatever your plans, hiring a car can be a great mobility solution for a range of needs.
+                </p>
+                <p>
+Dusseldorf is the largest city in the NRW state, known for its rich  history and modern architecture. The city is well rewarded by the Steel  Construction Award 2025, GaWC Beta+ world city, MIPIM Award. Also ranked 10th worldwide for high quality of living by Mercer’s 2023 Quality of Living survey, the city is recognised for its high living standards. The city has a lot to offer visitors, from the stunning views of the Rhine  River, the upscale shopping street Kö (Königsallee), the lively Old Town (Altstadt), the energetic Carlsplatz Market, and the Rhine embankment  promenade for leisurely strolls.
+                </p>
+                <p>
+Make your car hire experience more cost-effective by making a reservation through our reliable website. In association with leading international and domestic brands, we offer a range of affordable car  rental deals for DUS on our dynamic booking engine. Providing customers  with all-inclusive rentals for Dusseldorf Airport, our partnered rental companies offer benefits such as unlimited mileage, free breakdown assistance, and more. They also cover multiple locations in and around  the city for ease of pickup and return.
+                </p>
+            </div>
+
+            <div class="col-lg-4">
+                <img src="./Images/dusseldorf-international-airport.jpg"
+                     class="img-fluid rounded-4 shadow-sm"
+                     alt="Dusseldorf Airport">
+            </div>
+
+        </div>
+</div>
+
+</section>
+<section class="py-5 bg-light car_categories">
+    <div class="container">
+
+        <div class="mb-5">
+            <h2 class="fw-bold mb-3">Popular Car Rental Categories at Dusseldorf Airport</h2>
+            <p>Organize your trip to Germany by booking your ideal car for DUS Airport using our platform. Each traveler has a different requirement for a rental vehicle and in partnership with top-notch suppliers, we provide  customers with a high-quality vehicle fleet with both automatic and  manual transmissions.</p>
+
+            <div class="row g-4 mt-3">
+
+                <!-- Economy -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card car_deal h-100 shadow-sm border-0 rounded-4">
+                        <div class="card-body">
+                            <div class="d-flex align-items-start mb-3">
+                                <img src="https://via.placeholder.com/120x70" class="me-3" alt="Economy Car">
+                                <div>
+                                    <span class="badge bg_blue mb-2">Economy</span>
+                                    <h6 class="mb-1">Ford Fiesta <small>or Similar</small></h6>
+                                    <p>From <span>€20</span> /day</p>
+                                </div>
+                            </div>
+                            <p class="text-muted small mb-0">Düsseldorf’s urban center and Altstadt have narrow streets and limited  parking, which makes maneuvering through these in a small car like a  Skoda, Volkswagen, or similar an ideal option.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Full Size -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card car_deal h-100 shadow-sm border-0 rounded-4">
+                        <div class="card-body">
+                            <div class="d-flex align-items-start mb-3">
+                                <img src="https://via.placeholder.com/120x70" class="me-3" alt="Full Size Car">
+                                <div>
+                                    <span class="badge bg_blue mb-2">Full-size</span>
+                                    <h6 class="mb-1">BMW 3 Series <small>or Similar</small></h6>
+                                    <p>From <span class="txt_blue">€20</span> /day</p>
+                                </div>
+                            </div>
+                            <p class="text-muted small mb-0">If planning day trips to neighbouring popular destinations like Cologne, Bonn, Wuppertal, and expecting Autobahn travel, a fullsize car offers  ample legroom and better cruising comfort for longer journeys.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Van -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card car_deal h-100 shadow-sm border-0 rounded-4">
+                        <div class="card-body">
+                            <div class="d-flex align-items-start mb-3">
+                                <img src="https://via.placeholder.com/120x70" class="me-3" alt="Van">
+                                <div>
+                                    <span class="badge bg_blue mb-2">Van/Minivan</span>
+                                    <h6 class="mb-1">Mercedes Vito <small>or Similar</small></h6>
+                                    <p>From <span>€20</span> /day</p>
+                                </div>
+                            </div>
+                            <p class="text-muted small mb-0">Although capital of North Rhine-Westphalia region is compact, groups  planning travels to the populous Rhine Valley, Eifel region, or other parts of NRW can hire multiseater vans for added comfort &  flexibility.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SUV -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card car_deal h-100 shadow-sm border-0 rounded-4">
+                        <div class="card-body">
+                            <div class="d-flex align-items-start mb-3">
+                                <img src="https://via.placeholder.com/120x70" class="me-3" alt="SUV">
+                                <div>
+                                    <span class="badge bg_blue mb-2">SUV</span>
+                                    <h6 class="mb-1">Citroen C3 <small>or Similar</small></h6>
+                                    <p>From <span>€20</span> /day</p>
+                                </div>
+                            </div>
+                            <p class="text-muted small mb-0">Exploring the city or the wider Rhine-Ruhr Metropolitan Region, an SUV  rental strikes strong balance between comfort and safety, offering ample seating/luggage space, and improved handling in seasonal conditions.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Luxury -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card car_deal h-100 shadow-sm border-0 rounded-4">
+                        <div class="card-body">
+                            <div class="d-flex align-items-start mb-3">
+                                <img src="https://via.placeholder.com/120x70" class="me-3" alt="Luxury">
+                                <div>
+                                    <span class="badge bg_blue mb-2">Luxury/Premium</span>
+                                    <h6 class="mb-1">Audi A6 <small>or Similar</small></h6>
+                                    <p>From <span>€20</span> /day</p>
+                                </div>
+                            </div>
+                            <p class="text-muted small mb-0">Those who value first class mobility can rent a luxury car in Dusseldorf to make a statement. Whether it’s an Audi, BMW, Mercedes, or Porsche  you wish to drive, hire your ideal exotic car for a thrilling driving  experience.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Convertible -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card car_deal h-100 shadow-sm border-0 rounded-4">
+                        <div class="card-body">
+                            <div class="d-flex align-items-start mb-3">
+                                <img src="https://via.placeholder.com/120x70" class="me-3" alt="Convertible">
+                                <div>
+                                    <span class="badge bg_blue mb-2">Convertible</span>
+                                    <h6 class="mb-1">Mini Cooper <small>or Similar</small></h6>
+                                    <p>From <span>€20</span> /day</p>
+                                </div>
+                            </div>
+                            <p class="text-muted small mb-0">Offering plentiful opportunities to experience leisure and scenic rides, hiring a convertible can be perfect for enjoying open air drives along  the Rhine promenade, through the Bergisches Land, or toward the Mosel  region.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- ================= Airport Info Section ================= -->
+        <div class="row align-items-center g-5 mt-4">
+
+            <div class="col-lg-7">
+                <h2 class="fw-bold mb-3">Rent a Car at Dusseldorf International Airport</h2>
+                <p>
+                    If arriving in the capital of North Rhine-Westphalia, renting a car from Dusseldorf Airport
+                    can make your onward journey seamless and flexible.
+                </p>
+                <p>
+                    Dusseldorf is the largest city in NRW and well known for its rich history,
+                    modern architecture, Rhine River promenade, shopping streets, and vibrant Old Town.
+                </p>
+                <p>
+                    We offer affordable rental deals with trusted international brands,
+                    unlimited mileage options, roadside assistance, and convenient pickup & return.
+                </p>
+            </div>
+
+            <div class="col-lg-5">
+                <img src="https://via.placeholder.com/600x400"
+                     class="img-fluid rounded-4 shadow-sm"
+                     alt="Dusseldorf Airport">
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+
+
+
+
+<style>
+/* Top blue patterned background */
+.airport-hero {
+    background: #0f6c8d;
+    background-image: radial-gradient(rgba(255,255,255,0.15) 1px, transparent 1px);
+    background-size: 18px 18px;
+    padding: 60px 0 100px;
+}
+
+/* White info card */
+.airport-card {
+    border-radius: 14px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    margin-top: -70px;
+}
+
+/* Icon circle */
+.icon-circle {
+    width: 38px;
+    height: 38px;
+    background: rgba(13,110,253,0.1);
+    color: #0d6efd;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+/* Small info cards */
+.info-box {
+    border-radius: 12px;
+    border: 1px solid #e9ecef;
+    padding: 18px;
+    height: 100%;
+    transition: 0.2s;
+}
+.info-box:hover {
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+/* Pickup cards */
+.pickup-card {
+    background: #eef5f8;
+    border-radius: 14px;
+    padding: 25px;
+    height: 100%;
+}
+</style>
+
+<!-- ================= HERO SECTION ================= -->
+<section class="airport-hero text-white">
+    <div class="container">
+        <h2 class="fw-bold mb-4">About Dusseldorf Airport</h2>
+
+        <div class="card airport-card p-4 text-dark">
+            <div class="d-flex flex-wrap gap-4 small mb-3">
+                <div><strong>Address:</strong> Flughafenstraße 105, 40474 Düsseldorf, Germany</div>
+                <div><strong>IATA Code:</strong> DUS</div>
+                <div><strong>ICAO Code:</strong> EDDL</div>
+            </div>
+
+            <p class="text-muted">
+                Düsseldorf Airport is a major German airport serving the Ruhr area of northwest Germany.
+                The airport has two runways and three terminals connected by a central spine.
+                It serves as a hub for major airlines and offers premium passenger facilities.
+            </p>
+
+            <hr>
+
+            <h6 class="fw-bold mb-3">Facilities at DUS Airport</h6>
+
+            <div class="row g-3">
+                <div class="col-md-3 col-6 d-flex align-items-center gap-2">
+                    <i class="bi bi-wifi text-primary"></i> Wi-Fi Internet
+                </div>
+                <div class="col-md-3 col-6 d-flex align-items-center gap-2">
+                    <i class="bi bi-shop text-primary"></i> Duty-Free Shops
+                </div>
+                <div class="col-md-3 col-6 d-flex align-items-center gap-2">
+                    <i class="bi bi-search text-primary"></i> Lost & Found
+                </div>
+                <div class="col-md-3 col-6 d-flex align-items-center gap-2">
+                    <i class="bi bi-eye text-primary"></i> Observation Deck
+                </div>
+                <div class="col-md-3 col-6 d-flex align-items-center gap-2">
+                    <i class="bi bi-cup-hot text-primary"></i> Cafes & Restaurants
+                </div>
+                <div class="col-md-3 col-6 d-flex align-items-center gap-2">
+                    <i class="bi bi-p-square text-primary"></i> Car Parking
+                </div>
+                <div class="col-md-3 col-6 d-flex align-items-center gap-2">
+                    <i class="bi bi-briefcase text-primary"></i> Luggage Storage
+                </div>
+                <div class="col-md-3 col-6 d-flex align-items-center gap-2">
+                    <i class="bi bi-currency-exchange text-primary"></i> Currency Exchange
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ================= WHY BOOK WITH US ================= -->
+<section class="py-5">
+    <div class="container">
+        <div class="row align-items-center g-5">
+
+            <div class="col-lg-4">
+                <img src="https://via.placeholder.com/500x350"
+                     class="img-fluid rounded-4 shadow-sm" alt="">
+            </div>
+
+            <div class="col-lg-8">
+                <h3 class="fw-bold mb-4">Why Book With Us?</h3>
+
+                <div class="row g-4">
+
+                    <div class="col-md-6 d-flex gap-3">
+                        <div class="icon-circle"><i class="bi bi-car-front"></i></div>
+                        <div>
+                            <h6 class="fw-bold mb-1">Car Rental Comparison</h6>
+                            <p class="text-muted small mb-0">
+                                Compare multiple offers and book low-cost rentals easily.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 d-flex gap-3">
+                        <div class="icon-circle"><i class="bi bi-shield-lock"></i></div>
+                        <div>
+                            <h6 class="fw-bold mb-1">Secure Payment Portal</h6>
+                            <p class="text-muted small mb-0">
+                                SSL-secured payment process ensures safe transactions.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 d-flex gap-3">
+                        <div class="icon-circle"><i class="bi bi-arrow-repeat"></i></div>
+                        <div>
+                            <h6 class="fw-bold mb-1">Free Cancellation</h6>
+                            <p class="text-muted small mb-0">
+                                Free cancellation up to 48 hours before pickup.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 d-flex gap-3">
+                        <div class="icon-circle"><i class="bi bi-cash-coin"></i></div>
+                        <div>
+                            <h6 class="fw-bold mb-1">Transparent Pricing</h6>
+                            <p class="text-muted small mb-0">
+                                All-inclusive deals with zero hidden charges.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 d-flex gap-3">
+                        <div class="icon-circle"><i class="bi bi-building"></i></div>
+                        <div>
+                            <h6 class="fw-bold mb-1">Multiple Rental Companies</h6>
+                            <p class="text-muted small mb-0">
+                                Access global brands in one place.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 d-flex gap-3">
+                        <div class="icon-circle"><i class="bi bi-headset"></i></div>
+                        <div>
+                            <h6 class="fw-bold mb-1">24/7 Support</h6>
+                            <p class="text-muted small mb-0">
+                                Dedicated assistance via chat, email & phone.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ================= KEY INFORMATION ================= -->
+<section class="pb-5">
+    <div class="container">
+        <h3 class="fw-bold mb-4">Car Rental Dusseldorf Airport: Key Information at a Glance</h3>
+
+        <div class="row g-4">
+
+            <div class="col-lg-4 col-md-6">
+                <div class="info-box">
+                    <h6 class="fw-bold">Rental Location</h6>
+                    <p class="small text-muted mb-0">On-site, Arrivals Hall (Terminals A, B & C)</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="info-box">
+                    <h6 class="fw-bold">Car Pick Up Area</h6>
+                    <p class="small text-muted mb-0">Parking garages P8 / P9</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="info-box">
+                    <h6 class="fw-bold">Opening Hours</h6>
+                    <p class="small text-muted mb-0">06:00–23:00</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="info-box">
+                    <h6 class="fw-bold">Minimum Age</h6>
+                    <p class="small text-muted mb-0">21–25 years (fees may apply)</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="info-box">
+                    <h6 class="fw-bold">Payment Method</h6>
+                    <p class="small text-muted mb-0">Credit card required</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="info-box">
+                    <h6 class="fw-bold">Drive Time to City</h6>
+                    <p class="small text-muted mb-0">15–20 minutes</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+<!-- ================= PICKUP OPTIONS ================= -->
+<section class="pb-5">
+    <div class="container">
+        <h3 class="fw-bold mb-4 text-center">Pick-Up Options for Rental Cars at DUS</h3>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="pickup-card">
+                    <h6 class="fw-bold">In Terminal Pick-Up</h6>
+                    <p class="small text-muted mb-0">
+                        Pick up directly from the terminal arrival hall desks.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="pickup-card">
+                    <h6 class="fw-bold">Shuttle Service</h6>
+                    <p class="small text-muted mb-0">
+                        Shuttle bus transfers you to the rental office nearby.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="pickup-card">
+                    <h6 class="fw-bold">Meet & Greet</h6>
+                    <p class="small text-muted mb-0">
+                        Representative meets you outside arrivals and escorts you.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<style>
+/* body{
+    background:#f5f7f8;
+    font-family:system-ui,-apple-system,Segoe UI,Roboto;
+} */
+
+/* Section spacing */
+.section-space{
+    padding:70px 0;
+}
+
+/* Headings */
+.section-title{
+    font-weight:700;
+    margin-bottom:10px;
+}
+.section-desc{
+    color:#6c757d;
+    font-size:14px;
+    max-width:850px;
+}
+
+/* Route Cards */
+.route-card{
+    border-radius:14px;
+    overflow:hidden;
+    background:#fff;
+    box-shadow:0 4px 12px rgba(0,0,0,0.05);
+    transition:0.25s;
+}
+.route-card:hover{
+    transform:translateY(-4px);
+}
+.route-card img{
+    height:150px;
+    object-fit:cover;
+}
+.route-card .card-body{
+    padding:12px 15px;
+    font-weight:600;
+    font-size:14px;
+}
+
+/* Search Pills */
+.search-pill{
+    background:#fff;
+    border-radius:12px;
+    padding:14px 18px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    box-shadow:0 4px 12px rgba(0,0,0,0.05);
+    font-weight:600;
+    font-size:14px;
+}
+.search-pill i{
+    color:#0ea5a4;
+}
+
+/* Tips list */
+.tips-list li{
+    margin-bottom:14px;
+    font-size:14px;
+}
+.tips-list i{
+    color:#0ea5a4;
+    margin-right:8px;
+}
+
+/* Cost Info Box */
+.price-box{
+    background:#e9f2f4;
+    border-radius:12px;
+    padding:18px;
+    margin-bottom:15px;
+}
+.price-box h6{
+    font-size:14px;
+    margin-bottom:5px;
+}
+.price-box span{
+    font-weight:700;
+    font-size:18px;
+}
+
+/* Attractions */
+.attraction-card{
+    position:relative;
+    border-radius:14px;
+    overflow:hidden;
+    height:190px;
+}
+.attraction-card img{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+}
+.attraction-overlay{
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    padding:14px;
+    background:linear-gradient(to top,rgba(0,0,0,0.8),transparent);
+    color:#fff;
+}
+.attraction-overlay h6{
+    font-size:14px;
+    margin-bottom:4px;
+}
+.attraction-overlay small{
+    font-size:12px;
+}
+</style>
+
+
+<section class="section-space">
+<div class="container">
+
+<h3 class="section-title">One Way Car Rentals from Dusseldorf</h3>
+<p class="section-desc">
+Ideal for travelers whose journeys span multiple cities or cross borders...
+</p>
+
+<h6 class="fw-bold mt-4 mb-3">Domestic Car Rental Routes</h6>
+
+<div class="row g-4">
+  <div class="col-lg-3 col-md-6">
+    <div class="route-card">
+      <img src="https://via.placeholder.com/400x250">
+      <div class="card-body">Dusseldorf to Cologne</div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6">
+    <div class="route-card">
+      <img src="https://via.placeholder.com/400x250">
+      <div class="card-body">Dusseldorf to Frankfurt</div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6">
+    <div class="route-card">
+      <img src="https://via.placeholder.com/400x250">
+      <div class="card-body">Dusseldorf to Berlin</div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6">
+    <div class="route-card">
+      <img src="https://via.placeholder.com/400x250">
+      <div class="card-body">Dusseldorf to Munich</div>
+    </div>
+  </div>
+</div>
+
+<h6 class="fw-bold mt-5 mb-3">Cross Border Car Rental</h6>
+
+<div class="row g-4">
+  <div class="col-lg-3 col-md-6">
+    <div class="route-card">
+      <img src="https://via.placeholder.com/400x250">
+      <div class="card-body">Dusseldorf to Brussels (Belgium)</div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6">
+    <div class="route-card">
+      <img src="https://via.placeholder.com/400x250">
+      <div class="card-body">Dusseldorf to Amsterdam (Netherlands)</div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6">
+    <div class="route-card">
+      <img src="https://via.placeholder.com/400x250">
+      <div class="card-body">Dusseldorf to Luxembourg</div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6">
+    <div class="route-card">
+      <img src="https://via.placeholder.com/400x250">
+      <div class="card-body">Dusseldorf to Paris (France)</div>
+    </div>
+  </div>
+</div>
+
+</div>
+</section>
+
+
+<section class="section-space pt-0">
+<div class="container">
+
+<h4 class="fw-bold mb-4">Popular Car Rental Searches for DUS</h4>
+
+<div class="row g-4">
+  <div class="col-lg-3 col-md-6">
+    <div class="search-pill">
+      <span><i class="bi bi-car-front"></i> Luxury Car Rental</span>
+      <i class="bi bi-chevron-right"></i>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6">
+    <div class="search-pill">
+      <span><i class="bi bi-arrow-left-right"></i> One Way Car Rental</span>
+      <i class="bi bi-chevron-right"></i>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6">
+    <div class="search-pill">
+      <span><i class="bi bi-truck"></i> Van/Minivan Rental</span>
+      <i class="bi bi-chevron-right"></i>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6">
+    <div class="search-pill">
+      <span><i class="bi bi-car-front-fill"></i> SUV Rental</span>
+      <i class="bi bi-chevron-right"></i>
+    </div>
+  </div>
+</div>
+
+</div>
+</section>
+
+
+<section class="section-space bg-white">
+<div class="container">
+<div class="row g-5 align-items-start">
+
+<div class="col-lg-7">
+<h4 class="fw-bold mb-4">Essential Tips for Driving a Rental Car in Dusseldorf</h4>
+
+<ul class="tips-list list-unstyled">
+<li><i class="bi bi-check-circle-fill"></i>Trams operate throughout the city — give way when crossing tracks.</li>
+<li><i class="bi bi-check-circle-fill"></i>Green environmental sticker is mandatory.</li>
+<li><i class="bi bi-check-circle-fill"></i>Winter tires required during snow months.</li>
+<li><i class="bi bi-check-circle-fill"></i>Autobahn speed varies — observe limits carefully.</li>
+<li><i class="bi bi-check-circle-fill"></i>City center parking can be limited.</li>
+</ul>
+
+</div>
+
+<div class="col-lg-5">
+<img src="https://via.placeholder.com/400x500" class="img-fluid rounded-4 shadow-sm">
+</div>
+
+</div>
+
+<hr class="my-5">
+
+<h4 class="fw-bold mb-4">How much does it cost to rent a car at Dusseldorf Airport?</h4>
+
+<div class="row">
+<div class="col-lg-3">
+<div class="price-box">
+<h6>Cheapest Month Average</h6>
+<span>May – €26</span>
+</div>
+
+<div class="price-box">
+<h6>Most Expensive Month</h6>
+<span>July – €64</span>
+</div>
+
+<div class="price-box">
+<h6>Yearly Average</h6>
+<span>€78</span>
+</div>
+</div>
+
+<div class="col-lg-9">
+<div class="bg-light rounded-4 p-5 text-center text-muted">
+(Insert Monthly Bar Chart Here)
+</div>
+</div>
+</div>
+
+</div>
+</section>
+
+
+
+<section class="section-space">
+<div class="container">
+
+<h4 class="fw-bold mb-4">Dusseldorf Attractions & Driving Guide</h4>
+
+<div class="row g-4">
+
+<div class="col-lg-2 col-md-4 col-6">
+<div class="attraction-card">
+<img src="https://via.placeholder.com/300x300">
+<div class="attraction-overlay">
+<h6>Parking Dusseldorf Airport</h6>
+<small>Know More</small>
+</div>
+</div>
+</div>
+
+<div class="col-lg-2 col-md-4 col-6">
+<div class="attraction-card">
+<img src="https://via.placeholder.com/300x300">
+<div class="attraction-overlay">
+<h6>Driving Tips in Dusseldorf</h6>
+<small>Know More</small>
+</div>
+</div>
+</div>
+
+<div class="col-lg-2 col-md-4 col-6">
+<div class="attraction-card">
+<img src="https://via.placeholder.com/300x300">
+<div class="attraction-overlay">
+<h6>Things To Do</h6>
+<small>Know More</small>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<style>
+/* Reviews Section */
+.review-section {
+    background: #f4f6f8;
+    padding: 70px 0;
+    position: relative;
+}
+
+.review-box {
+    background: #fff;
+    border-radius: 12px;
+    padding: 25px;
+    max-height: 420px;
+    overflow-y: auto;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+}
+
+.review-item {
+    border-left: 3px solid #18b6b0;
+    padding-left: 15px;
+    margin-bottom: 25px;
+}
+
+.quote-left {
+    font-size: 70px;
+    color: #18b6b0;
+    position: absolute;
+    left: 120px;
+    top: 90px;
+}
+
+.quote-right {
+    font-size: 70px;
+    color: #18b6b0;
+    position: absolute;
+    right: 120px;
+    bottom: 60px;
+}
+
+/* FAQ */
+.faq-section {
+    padding: 70px 0;
+    background: #ffffff;
+}
+
+/* Footer */
+.footer {
+    background: linear-gradient(90deg, #043b3b, #0d5a5a);
+    color: #fff;
+    padding: 40px 0 20px;
+}
+
+.footer a {
+    color: #cfd8dc;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.2);
+    margin-top: 20px;
+    padding-top: 15px;
+    font-size: 13px;
+    text-align: center;
+}
+</style>
+
+<!-- ================= REVIEWS ================= -->
+<section class="review-section">
+    <div class="container position-relative">
+
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <div>
+                <h3 class="fw-bold">Car Rental Dusseldorf Airport Reviews</h3>
+                <small class="text-muted">Almost 400,000 customers have placed their trust in us</small>
+            </div>
+            <div class="text-end">
+                <div class="fw-bold">Overall Rating: <span class="fs-5">4.9/5</span></div>
+                <div class="text-warning">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="quote-left">“</div>
+
+        <div class="review-box">
+
+            <div class="review-item">
+                <h6 class="fw-bold">Reliable website for renting cars</h6>
+                <p class="small text-muted">
+                    It’s my third time hiring a car and each time I’ve had a positive experience.
+                </p>
+                <small class="text-secondary">Deborah Bromley</small>
+            </div>
+
+            <div class="review-item">
+                <h6 class="fw-bold">Support team was helpful</h6>
+                <p class="small text-muted">
+                    The customer service representative walked me through each step of booking modification.
+                </p>
+                <small class="text-secondary">Niel Waterman</small>
+            </div>
+
+            <div class="review-item">
+                <h6 class="fw-bold">Transparent Costs</h6>
+                <p class="small text-muted">
+                    Additional charges were clearly stated. No hidden or surprise fees.
+                </p>
+                <small class="text-secondary">Tim Cuthbertson</small>
+            </div>
+
+            <div class="review-item">
+                <h6 class="fw-bold">Fast booking confirmation</h6>
+                <p class="small text-muted">
+                    Received confirmation promptly after making payment.
+                </p>
+                <small class="text-secondary">Mark Brown</small>
+            </div>
+
+            <div class="review-item mb-0">
+                <h6 class="fw-bold">Low cost prices</h6>
+                <p class="small text-muted">
+                    The comparison feature was helpful in choosing the best budget option.
+                </p>
+                <small class="text-secondary">Ali Moussa</small>
+            </div>
+
+        </div>
+
+        <div class="quote-right">”</div>
+
+    </div>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section class="faq-section">
+    <div class="container">
+        <h3 class="fw-bold mb-4">Frequently Asked Questions</h3>
+
+        <div class="row g-4">
+
+            <!-- LEFT COLUMN -->
+            <div class="col-lg-6">
+                <div class="accordion" id="faqLeft">
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                Is it cheaper to book online in advance?
+                            </button>
+                        </h2>
+                        <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqLeft">
+                            <div class="accordion-body">
+                                Booking online early often gives better availability and lower prices.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item mt-2">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                Can I cancel or modify my booking?
+                            </button>
+                        </h2>
+                        <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqLeft">
+                            <div class="accordion-body">
+                                Yes, free cancellation is available up to 48 hours before pickup.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- RIGHT COLUMN -->
+            <div class="col-lg-6">
+                <div class="accordion" id="faqRight">
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                Do I need an International Driving Permit?
+                            </button>
+                        </h2>
+                        <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqRight">
+                            <div class="accordion-body">
+                                An IDP may be required if your license is not in Roman characters.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item mt-2">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                What documents are required?
+                            </button>
+                        </h2>
+                        <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqRight">
+                            <div class="accordion-body">
+                                Driver’s license, passport/ID, and credit card in driver’s name.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-4 mb-3">
+                <h5 class="fw-bold">Düsseldorf Airport Car Hire</h5>
+            </div>
+
+            <div class="col-lg-2 col-6">
+                <a href="#">About Us</a><br>
+                <a href="#">Terms & Conditions</a><br>
+                <a href="#">Manage Booking</a>
+            </div>
+
+            <div class="col-lg-2 col-6">
+                <a href="#">Privacy Policy</a><br>
+                <a href="#">Cookie Control</a><br>
+                <a href="#">Contact Us</a>
+            </div>
+
+            <div class="col-lg-2 col-6 mt-3 mt-lg-0">
+                <a href="#">Car Rental Locations</a><br>
+                <a href="#">Email Preferences</a><br>
+                <a href="#">Sitemap</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            © 2026 dusseldorfairportcarhire.com, All Rights Reserved.
+        </div>
+
+    </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
